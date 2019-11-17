@@ -1,0 +1,16 @@
+name: Node CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [8.x, 10.x, 12.x]
+
+    steps:
+    - name: Gatsby Publish
+      uses: enriikke/gatsby-gh-pages-action@v2.0.0

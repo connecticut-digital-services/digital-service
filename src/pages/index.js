@@ -4,6 +4,8 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Hero from "../components/hero";
 import Guiding from "../components/guiding";
+import Areas from "../components/areas";
+import Contact from "../components/contact";
 
 function IndexPage() {
   return (
@@ -12,8 +14,10 @@ function IndexPage() {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Home"
       />
-      <Hero text="We envision a government that delivers cost-effective public services through a seamless digital experience and exceptional customer service." />
+      <Hero text="To better serve the citizens of Connecticut through smart, user-centered digital services." />
       <Guiding></Guiding>
+      <Areas></Areas>
+      <Contact></Contact>
     </Layout>
   );
 }

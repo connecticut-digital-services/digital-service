@@ -8,19 +8,19 @@ function Guiding() {
     <Block title="Our guiding principals">
         <div className="ct-flex ct-flex-wrap ct--mx-8">
             <div className="ct-w-full sm:ct-w-1/2 lg:ct-w-1/3 ct-px-8">
-                <Card title="Put users first." content="Identify current users and understand what they’re trying to do. Identify potential users and what would motivate them to access services. Prioritize their needs above all." />
-            </div>
-            <div className="ct-w-full sm:ct-w-1/2 lg:ct-w-1/3 ct-px-8">
-                <Card title="Document. Codify. Share." content="Don’t reinvent the wheel. Document what we learn, develop standards, put them into practice, and share them publicly." />
+                <Card title="Ensure safe and accessible services." content="As stewards of the public’s trust and data, we ensure personal information is secure and services are accessible to all." />
             </div>
             <div className="ct-w-full sm:ct-w-1/2 lg:ct-w-1/3 ct-px-8">
                 <Card title="Create a culture of iteration and collaboration." content="Build capacity in-house to collaborate, experiment, and scale expertise across agencies and subject areas." />
             </div>
             <div className="ct-w-full sm:ct-w-1/2 lg:ct-w-1/3 ct-px-8">
-                <Card title="Deliver adaptable, secure, and accessible services." content="To be responsible stewards of the public’s trust and data, adopt modern product delivery processes that adapt to future change. Adhere to best practices to ensure that personal information is secure and services are accessible to all." />
+                <Card title="Listen to our users." content="We seek to understand and prioritize the needs of our citizens, businesses and state employees." />
             </div>
             <div className="ct-w-full sm:ct-w-1/2 lg:ct-w-1/3 ct-px-8">
-                <Card title="Make decisions based on data and outcomes." content="Measure what’s working before planning what’s next. Plan just enough to test assumptions while building upon what works." />
+                <Card title="Move swiftly, and share what we learn." content="We improve services by building on what works and developing standards that can be put into practice across the state." />
+            </div>
+            <div className="ct-w-full sm:ct-w-1/2 lg:ct-w-1/3 ct-px-8">
+                <Card title="Grow a culture of collaboration." content="We work across agencies so that together, we can deliver results that put our citizens first." />
             </div>
         </div>
     </Block>

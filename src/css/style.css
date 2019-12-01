@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.ct-nav-link span {
+  padding-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s;
+}
+
+.ct-nav-link:hover span {
+  border-color: theme('colors.white');
+}
+
+.ct-nav-link.ct--is-active span {
+  border-color: theme('colors.primary.dark');
+  font-weight: 700;
+}

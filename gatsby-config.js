@@ -8,6 +8,17 @@ module.exports = {
     author: `@taylorbryant`
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Open Sans`,
+            variants: [`400`, `700`]
+          },
+        ],
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,

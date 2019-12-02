@@ -3,6 +3,9 @@
 module.exports = {
   prefix: 'ct-',
   theme: {
+      fontFamily: {
+        'sans': ['Open Sans', '-apple-system', 'Helvetica', 'Arial', 'sans-serif']
+      },
       colors: {
           primary: {
               lighter: "#88BFE3",

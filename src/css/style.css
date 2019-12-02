@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  font-family: theme('fontFamily.sans');
+}
+
 .ct-nav-link span {
   padding-bottom: 5px;
   padding-left: 3px;

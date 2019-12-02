@@ -1,6 +1,7 @@
 const path = require(`path`)
 
 module.exports = {
+  pathPrefix: `/digital-service`,
   siteMetadata: {
     title: `Gatsby Starter Tailwind`,
     description: `Gatsby starter styled with Tailwind`,

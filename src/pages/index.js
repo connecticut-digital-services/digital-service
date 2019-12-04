@@ -21,11 +21,11 @@ function IndexPage() {
         cta="Learn about our guiding principals"
         cta_url="#principals"
       />
+      <Areas></Areas>
+      <LineBreak />
       <Quote></Quote>
       <LineBreak />
       <Guiding></Guiding>
-      <LineBreak />
-      <Areas></Areas>
     </Layout>
   );
 }

@@ -68,7 +68,9 @@ function SEO({ description, lang, meta, keywords, title }) {
         .concat(meta)}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
-    />
+    >
+      <script src="https://kit.fontawesome.com/bd26529cee.js" crossorigin="anonymous"></script>
+    </Helmet>
   );
 }
 

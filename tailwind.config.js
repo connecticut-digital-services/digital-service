@@ -15,13 +15,16 @@ module.exports = {
             dark: "#054266",
             darkest: "053955",
           },
+          secondary: {
+            green: '#27ae60'
+          },
           grey: {
             light: '#efefef',
           },
           white: '#ffffff',
           black: {
             full: "#000000",
-            alpha: "rgba(1,14,21,.69)"
+            alpha: "rgba(1,14,21,.90)"
           }
       },
       container: {

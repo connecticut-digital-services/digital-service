@@ -1,7 +1,8 @@
 import PropTypes from "prop-types";
 import React from "react";
-
 import Header from "./header";
+import Contact from './contact';
+import Footer from './footer';
 
 function Layout({ children }) {
   return (
@@ -10,6 +11,8 @@ function Layout({ children }) {
 
       <main>
         {children}
+        <Contact></Contact>
+        <Footer></Footer>
       </main>
     </div>
   );

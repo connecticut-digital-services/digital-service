@@ -5,8 +5,8 @@ import SEO from "../components/seo";
 import Hero from "../components/hero";
 import Guiding from "../components/guiding";
 import Areas from "../components/areas";
-import Contact from "../components/contact";
 import Quote from "../components/quote";
+import LineBreak from "../components/_lineBreak";
 
 function IndexPage() {
   return (
@@ -15,11 +15,17 @@ function IndexPage() {
         keywords={[`ct digital service`, `connecticut`]}
         title="Connecticut Digital Service"
       />
-      <Hero text="To better serve the citizens of Connecticut through smart, user-centered digital services." />
+      <Hero 
+        title="Our Mission" 
+        text="To better serve the citizens of Connecticut through smart, user-centered digital services." 
+        cta="Learn about our guiding principals"
+        cta_url="#principals"
+      />
       <Quote></Quote>
+      <LineBreak />
       <Guiding></Guiding>
+      <LineBreak />
       <Areas></Areas>
-      <Contact></Contact>
     </Layout>
   );
 }

@@ -3,8 +3,9 @@ import { graphql, StaticQuery } from 'gatsby'
 import styled from 'styled-components'
 
 import BackgroundImage from 'gatsby-background-image'
+import chevron from '../images/chevron.svg'
 
-const Hero = ({ className, text }) => (
+const Hero = ({ className, text, title, cta, cta_url }) => (
   <StaticQuery
     query={graphql`
       query {
@@ -27,9 +28,21 @@ const Hero = ({ className, text }) => (
           fluid={imageData}
           backgroundColor={`#040e18`}
         >
-            <div className="ct-max-w-4xl ct-container ct-mx-auto ct-py-4 md:ct-py-20">
-                <h1 className="ct-text-2xl md:ct-text-4xl ct-text-white ct-max-w-4xl ct-leading-tight ct-bg-black-alpha ct-p-8">{text}</h1>
+          <div className="ct-max-w-4xl ct-container ct-mx-auto ct-py-4 md:ct-py-20">
+            <div className={`ct-bg-black-alpha ct-p-8 ct--mx-8`}> 
+              <h1 className="ct-text-2xl md:ct-text-4xl ct-text-white ct-max-w-4xl ct-leading-tight ct-font-bold">{title}</h1>
+              <hr className="ct-border-2 ct-border-primary-normal ct-w-1/4 ct-my-4" />
+              <h2 className="ct-text-xl md:ct-text-3xl ct-text-white ct-max-w-4xl ct-leading-tight">{text}</h2>
+              <div className="ct-mt-8">
+                <a href={cta_url} className={`ct-inline-flex ct-bg-primary-normal hover:ct-bg-primary-dark ct-text-white`}>
+                  <span className={`ct-px-6 ct-py-4 ct-font-bold`}>{cta}</span>
+                  <span className={`ct-flex ct-items-center ct-justify-center ct-bg-primary-dark ct-w-16`}>
+                    <img src={chevron} role={`presentation`} className={`ct-w-6`} />
+                  </span>
+                </a>
+              </div>
             </div>
+          </div>
         </BackgroundImage>
       )
     }}

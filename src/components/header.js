@@ -1,6 +1,7 @@
 import { graphql, useStaticQuery } from "gatsby";
 import React, { useState } from "react";
 import NavLink from './_navLink';
+import logo from '../images/logo.png';
 
 function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -18,7 +19,7 @@ function Header() {
     <header className="ct-bg-primary-normal ct-py-4">
       <div className="ct-flex ct-items-center ct-px-6">
           <div class="ct-w-1/2">
-            <span className="ct-text-white ct-text-2xl ct-py-2">CT Digital Service</span>
+            <img src={logo} alt="Connecticut Digital Service" className={`ct-h-12 sm:ct-h-16`} />
           </div>
           <nav className="ct-flex ct-items-center ct-justify-end ct-w-1/2">
             <ul className="ct-flex">

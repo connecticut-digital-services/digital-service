@@ -4,7 +4,8 @@ module.exports = {
   prefix: 'ct-',
   theme: {
       fontFamily: {
-        'sans': ['Open Sans', '-apple-system', 'Helvetica', 'Arial', 'sans-serif']
+        'sans': ['Open Sans', '-apple-system', 'Helvetica', 'Arial', 'sans-serif'],
+        'serif': ['Georgia', 'serif'] 
       },
       colors: {
           primary: {

@@ -25,6 +25,7 @@ function Header() {
             <ul className="ct-flex">
               <li><NavLink to={`/`}>Home</NavLink></li>
               <li><NavLink to={`/people`}>People</NavLink></li>
+              <li><NavLink to={`/work`}>Our Work</NavLink></li>
             </ul>
           </nav>
       </div>

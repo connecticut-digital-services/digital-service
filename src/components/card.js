@@ -8,7 +8,7 @@ function Card(props) {
                 <div className="ct-text-6xl ct-mb-4">
                     <i class={`fal fa-${props.icon}`}></i>
                 </div>
-                <div className="ct-leading-none ct-text-primary-dark ct-font-bold ct-text-primary-normal ct-text-xl md:ct-text-2xl ct-leading-tight ct-mb-4">{ props.title }</div>
+                <div className="ct-leading-none md:ct-w-5/6 ct-text-primary-dark ct-font-bold ct-text-primary-normal ct-text-xl md:ct-text-2xl ct-leading-tight ct-mb-4">{ props.title }</div>
                 <div className="ct-text-l md:ct-text-xl ct-leading-tight">{ props.content }</div>
             </div>
         </div>

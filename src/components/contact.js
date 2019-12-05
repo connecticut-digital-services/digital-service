@@ -5,12 +5,12 @@ import chevron from '../images/chevron.svg'
 function Contact() {
   return (
     <div className={`ct-bg-grey-light`}>
-      <div className={`ct-max-w-4xl ct-container ct-mx-auto ct-py-8`}>
-        <div className={`ct-flex ct-flex-col sm:ct-flex-row ct-items-center`}>
-          <span className={`ct-flex-grow ct-text-2xl ct-text-primary-dark ct-mb-6 md:ct-mb-0`}>Interested in learning more or getting involved?  Please send us a note. We look forward to connecting with you. </span>
-          <span>
+      <div className={`ct-max-w-5xl ct-container ct-mx-auto ct-py-8`}>
+        <div className={`ct-flex ct-flex-col md:ct-flex-row ct-items-center`}>
+          <span className={`ct-flex-grow ct-text-2xl ct-text-primary-dark ct-mb-6 md:ct-mb-0`}>Interested in learning more or getting involved?  Drop us a line.</span>
+          <span className={`md:ct-ml-6`}>
             <a href={`mailto:email@example.com`} className={`ct-inline-flex ct-bg-primary-normal hover:ct-bg-primary-dark ct-text-white`}>
-              <span className={`ct-px-6 ct-py-4 ct-font-bold`}>Contact Us</span>
+              <span className={`ct-px-6 ct-py-4 ct-font-bold ct-w-48`}>Contact Us</span>
               <span className={`ct-flex ct-items-center ct-justify-center ct-bg-primary-dark ct-w-16`}>
                 <img src={chevron} role={`presentation`} className={`ct-w-6`} />
               </span>

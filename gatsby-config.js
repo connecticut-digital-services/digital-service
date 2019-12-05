@@ -4,7 +4,7 @@ module.exports = {
   pathPrefix: `/digital-service`,
   siteMetadata: {
     title: `Connecticut Digital Service`,
-    description: `To better serve the citizens of Connecticut through smart, user-centered digital services.`,
+    description: `We better serve the citizens of Connecticut through smart, user-centered digital services.`,
     author: `@taylorbryant`
   },
   plugins: [

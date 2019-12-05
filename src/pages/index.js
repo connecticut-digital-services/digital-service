@@ -17,9 +17,9 @@ function IndexPage() {
       />
       <Hero 
         title="Our Mission" 
-        text="To better serve the citizens of Connecticut through smart, user-centered digital services." 
-        cta="Learn about our guiding principals"
-        cta_url="#principals"
+        text="We better serve the citizens of Connecticut through smart, user-centered digital services." 
+        cta="Learn more about our work"
+        cta_url="/work"
       />
       <Areas></Areas>
       <LineBreak />

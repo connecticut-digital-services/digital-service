@@ -6,7 +6,7 @@ import FocusArea from './_focusArea';
 function Areas() {
   return (
     <Block title={false}>
-      <h2 className={`ct-text-3xl md:ct-text-4xl ct-font-bold ct-text-primary-dark`}>How We Help or What We Do</h2>
+      <h2 className={`ct-text-3xl md:ct-text-4xl ct-font-bold ct-text-primary-dark`}>What We Do</h2>
       <div className={`ct-text-xl md:ct-text-2xl ct-text-primary-dark ct-mb-10`}>The status quo is no longer good enough for our citizens. The Connecticut Digital Service promotes efforts to transform the state’s use of digital technology to deliver high quality experiences for our users.  To do this, our immediate areas of focus include:</div>
       <div className={`ct-flex ct-flex-wrap ct--mx-4`}>
         <FocusArea icon={`comments-alt`} title={`Customer Experience`} subtitle={`Deliver services that are designed around the needs of our constituents`} />

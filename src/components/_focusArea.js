@@ -8,7 +8,7 @@ function FocusArea(props) {
         </div>
         <div>
           <div className="ct-text-primary-dark ct-text-2xl">{props.title}</div>
-          <div className="ct-text-xl">{props.subtitle}</div>
+          <div className="ct-text-l">{props.subtitle}</div>
         </div>
       </div>
     );

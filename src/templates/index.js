@@ -1,5 +1,5 @@
 import React from "react";
-
+import { graphql } from 'gatsby'
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Hero from "../components/hero";
@@ -29,5 +29,16 @@ function IndexPage() {
     </Layout>
   );
 }
+
+export const pageQuery = graphql`
+query IndexTemplate {
+  markdownRemark(frontmatter: { templateKey: { eq: "index" } }) {
+    html
+    frontmatter {
+      title
+    }
+  }
+}
+`
 
 export default IndexPage;

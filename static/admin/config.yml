@@ -15,3 +15,23 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "focus"
+    label: "Focus Area"
+    folder: "src/content/focus-area"
+    create: true
+    slug: "focus-area/{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Icon", name: "icon", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Order", name: "order", widget: "number" }
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/index.md"
+        label: "Home"
+        name: "index"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index"}
+          - {label: "Title", name: "title", widget: "string"}

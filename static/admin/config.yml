@@ -6,6 +6,41 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/index.md"
+        label: "Home"
+        name: "index"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields: 
+              - {label: "Text", name: "text", widget: "string"}
+              - {label: "Background Image", name: "bg", widget: "image"}
+              - {label: "CTA Text", name: "cta_text", widget: "string"}
+              - {label: "Button Text", name: "button_text", widget: "string"}
+          - label: "Focus Areas"
+            name: "focus"
+            widget: "object"
+            fields: 
+              - {label: "Header", name: "header", widget: "string"}
+              - {label: "Text", name: "text", widget: "string"}
+              - {label: "CTA Text", name: "cta_text", widget: "string"}
+              - {label: "CTA URL", name: "cta_url", widget: "string"}
+          - label: "Quote"
+            name: "quote"
+            widget: "object"
+            fields: 
+              - {label: "Text", name: "text", widget: "string"}
+          - label: "Principles"
+            name: "principles"
+            widget: "object"
+            fields: 
+              - {label: "Title", name: "text", widget: "string"}
+
   - name: "work"
     label: "Work"
     folder: "src/content/work"
@@ -15,6 +50,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "focus"
     label: "Focus Area"
     folder: "src/content/focus-area"
@@ -25,13 +61,3 @@ collections:
       - { label: "Icon", name: "icon", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Order", name: "order", widget: "number" }
-
-  - name: "pages"
-    label: "Pages"
-    files:
-      - file: "src/pages/index.md"
-        label: "Home"
-        name: "index"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index"}
-          - {label: "Title", name: "title", widget: "string"}

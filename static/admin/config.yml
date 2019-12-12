@@ -47,6 +47,7 @@ collections:
     create: true
     slug: "work/{{slug}}"
     fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "project" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
@@ -57,6 +58,19 @@ collections:
     create: true
     slug: "focus-area/{{slug}}"
     fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "area" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Icon", name: "icon", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Order", name: "order", widget: "number" }
+
+  - name: "principle"
+    label: "Principle"
+    folder: "src/content/principle"
+    create: true
+    slug: "principle/{{slug}}"
+    fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "principle" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Icon", name: "icon", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }

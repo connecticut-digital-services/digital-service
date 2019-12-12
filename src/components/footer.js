@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery, Link } from "gatsby";
 import React, { useState } from "react";
-import ctLogo from "../images/CT-logo-full.png";
+import ctLogo from "../../static/img/CT-logo-full.png";
 
 function Footer() {
   return (

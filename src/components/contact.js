@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery, Link } from "gatsby";
 import React, { useState } from "react";
-import chevron from '../images/chevron.svg'
+import chevron from '../../static/img/chevron.svg'
 
 function Contact() {
   return (

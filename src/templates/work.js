@@ -6,7 +6,7 @@ import Work from "../components/work";
 import Resources from "../components/resources";
 import LineBreak from "../components/_lineBreak";
 
-function PeoplePage() {
+function WorkPage() {
   return (
     <Layout>
       <SEO
@@ -20,4 +20,4 @@ function PeoplePage() {
   );
 }
 
-export default PeoplePage;
+export default WorkPage;

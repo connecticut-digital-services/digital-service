@@ -29,7 +29,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#4dc0b5`,
         display: `minimal-ui`,
-        icon: `src/images/fall.jpg`
+        icon: `static/img/fall.jpg`
       }
     },
     `gatsby-plugin-postcss`,
@@ -44,7 +44,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: path.join(__dirname, `src`, `images`),
+        path: path.join(__dirname, `static`, `img`),
       },
     },
     {
@@ -52,6 +52,27 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages`,
         name: 'pages',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/content/focus-area`,
+        name: 'areas',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/content/work`,
+        name: 'works',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/content/principle`,
+        name: 'principles',
       },
     },
     `gatsby-plugin-netlify-cms`,

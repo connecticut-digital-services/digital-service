@@ -8,24 +8,40 @@ import Areas from "../components/areas";
 import Quote from "../components/quote";
 import LineBreak from "../components/_lineBreak";
 
-function IndexPage() {
+function IndexPage({data}) {
+  const content = data.markdownRemark.frontmatter;
+  const areas = data.areas.edges;
+  const principles = data.principles.edges;
+
   return (
     <Layout>
       <SEO
         keywords={[`ct digital service`, `connecticut`]}
         title="Connecticut Digital Service"
       />
-      <Hero 
-        title="Our Mission" 
-        text="We better serve the citizens of Connecticut through smart, user-centered digital services." 
-        cta="Learn more about our work"
+      <Hero
+        text={content.hero.text} 
+        cta={content.hero.cta_text}
         cta_url="/work"
+        button_text={content.hero.button_text}
+        bg={content.hero.bg}
       />
-      <Areas></Areas>
+      <Areas
+        title={content.focus.header} 
+        text={content.focus.text}
+        cta={content.focus.cta_text}
+        cta_url={content.focus.cta_url}
+        areas={areas}
+      />
       <LineBreak />
-      <Quote></Quote>
+      <Quote
+        quote={content.quote.text}
+      />
       <LineBreak />
-      <Guiding></Guiding>
+      <Guiding
+        heading={content.principles.text}
+        principles={principles}
+      />
     </Layout>
   );
 }
@@ -35,7 +51,74 @@ query IndexTemplate {
   markdownRemark(frontmatter: { templateKey: { eq: "index" } }) {
     html
     frontmatter {
-      title
+      hero {
+        text
+        cta_text
+        button_text
+        bg {
+          childImageSharp {
+            fluid(maxWidth: 3000) {
+            ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+      focus {
+        header
+        text
+        cta_text
+        cta_url
+      }
+      quote {
+        text
+      }
+      principles {
+        text
+      }
+    }
+  }
+  principles: allMarkdownRemark(
+    filter: {
+      frontmatter: {
+        templateKey: { 
+          eq: "principle"
+        }
+      }
+    },
+    sort: {
+      fields: frontmatter___order,
+      order: ASC
+    }) {
+    edges {
+      node {
+        frontmatter {
+          title
+          icon
+          description
+        }
+      }
+    }
+  }
+  areas: allMarkdownRemark(
+    filter: {
+      frontmatter: {
+        templateKey: { 
+          eq: "area"
+        }
+      }
+    },
+    sort: {
+      fields: frontmatter___order,
+      order: ASC
+    }) {
+    edges {
+      node {
+        frontmatter {
+          title
+          icon
+          description
+        }
+      }
     }
   }
 }

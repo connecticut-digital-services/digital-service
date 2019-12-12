@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery } from "gatsby";
 import React, { useState } from "react";
 import NavLink from './_navLink';
-import logo from '../images/logo.png';
+import logo from '../../static/img/logo.png';
 
 function Header() {
   const [isExpanded, toggleExpansion] = useState(false);

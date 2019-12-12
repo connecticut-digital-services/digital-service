@@ -6,7 +6,7 @@ hero:
       cta_text: See open roles
       description: >-
         Join the CT Digital Service and help us improve the daily lives of our
-        constituents
+        constituents test
       title: We're Hiring!
     - cta_link: /work/business-one-stop
       cta_text: Learn More

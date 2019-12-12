@@ -40,6 +40,37 @@ collections:
             widget: "object"
             fields: 
               - {label: "Title", name: "text", widget: "string"}
+      - file: "src/pages/people.md"
+        label: "People"
+        name: "people"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "people"}
+          - label: "Team"
+            name: "team"
+            widget: "object"
+            fields: 
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Intro", name: "intro", widget: "string"}
+              - label: "Team Members"
+                name: "members"
+                widget: "list"
+                fields:
+                  - {label: Name, name: name, widget: string}
+                  - {label: Avatar, name: avatar, widget: image}
+                  - {label: Bio, name: bio, widget: string}
+          - label: "Openings"
+            name: "openings"
+            widget: "object"
+            fields: 
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Intro", name: "intro", widget: "string"}
+              - label: "Roles"
+                name: "roles"
+                widget: "list"
+                fields:
+                  - {label: Position, name: position, widget: string}
+                  - {label: Link, name: link, widget: string}
+                  - {label: Location, name: location, widget: string}
 
   - name: "work"
     label: "Work"

@@ -6,18 +6,48 @@ import Team from "../components/team";
 import Careers from "../components/careers";
 import LineBreak from "../components/_lineBreak";
 
-function PeoplePage() {
+function PeoplePage({data}) {
+
   return (
     <Layout>
       <SEO
         keywords={[`About the team`]}
         title="About the team"
       />
-      <Team />
+      <Team team={data.markdownRemark.frontmatter.team} />
       <LineBreak />
-      <Careers />
+      <Careers openings={data.markdownRemark.frontmatter.openings} />
     </Layout>
   );
 }
+
+
+export const pageQuery = graphql`
+query PeopleTemplate {
+  markdownRemark(frontmatter: { templateKey: { eq: "people" } }) {
+    html
+    frontmatter {
+    	team {
+        title
+        intro
+        members {
+          name
+          position
+          bio
+        }
+      }
+      openings {
+        title
+        intro
+        roles {
+          link
+          location
+          position
+        }
+      }
+    }
+  }
+}
+`
 
 export default PeoplePage;

@@ -57,7 +57,7 @@ query IndexTemplate {
         button_text
         bg {
           childImageSharp {
-            fluid(maxWidth: 3000) {
+            fluid(maxWidth: 2000) {
             ...GatsbyImageSharpFluid
             }
           }

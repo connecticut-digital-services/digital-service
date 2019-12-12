@@ -4,6 +4,16 @@ team:
   intro: >-
     Our lean but scrappy team is made up of a diverse set of skills and
     experience.
+  members:
+    - avatar: /img/5g27zp266necxl7kwukkexqnb4.jpg
+      bio: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac odio
+        sagittis, fringilla velit at, maximus libero. Donec in consectetur odio.
+        Suspendisse rhoncus felis nec nibh imperdiet convallis. Sed in augue
+        mollis, lobortis justo iaculis, congue sem. Vestibulum imperdiet ac
+        justo sed porttitor.
+      name: Josh Geballe
+      position: 'Commissioner, DAS'
   title: The Team
 openings:
   intro: >-

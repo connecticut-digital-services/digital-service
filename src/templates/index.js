@@ -25,6 +25,8 @@ function IndexPage({data}) {
         cta_url="/work"
         button_text={content.hero.button_text}
         bg={content.hero.bg}
+        announcements_title={content.hero.announcements_title}
+        announcements={content.hero.announcements}
       />
       <Areas
         title={content.focus.header} 
@@ -61,6 +63,13 @@ query IndexTemplate {
             ...GatsbyImageSharpFluid
             }
           }
+        }
+        announcements_title
+        announcements {
+          title
+          description
+          cta_text
+          cta_link
         }
       }
       focus {

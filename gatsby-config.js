@@ -77,9 +77,9 @@ module.exports = {
     },
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-offline`,
+    `gatsby-transformer-remark`,
+    `gatsby-remark-relative-images`,
     `gatsby-transformer-sharp`, 
     `gatsby-plugin-sharp`,
-    `gatsby-transformer-remark`,
-    `gatsby-remark-relative-images`
   ]
 };

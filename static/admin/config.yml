@@ -22,6 +22,15 @@ collections:
               - {label: "Background Image", name: "bg", widget: "image"}
               - {label: "CTA Text", name: "cta_text", widget: "string"}
               - {label: "Button Text", name: "button_text", widget: "string"}
+              - {label: "Announcements Title", name: "announcements_title", widget: "string"}
+              - label: "Announcements"
+                name: "announcements"
+                widget: "list"
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Description, name: description, widget: string}
+                  - {label: CTA Text, name: cta_text, widget: string}
+                  - {label: CTA Link, name: cta_link, widget: string}
           - label: "Focus Areas"
             name: "focus"
             widget: "object"
@@ -40,6 +49,31 @@ collections:
             widget: "object"
             fields: 
               - {label: "Title", name: "text", widget: "string"}
+      - file: "src/pages/work.md"
+        label: "Work"
+        name: "work"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project"}
+          - label: "Recent Projects"
+            name: "projects"
+            widget: "object"
+            fields: 
+              - {label: "Header", name: "header", widget: "string"}
+              - {label: "Text", name: "text", widget: "string"}
+          - label: "Resources Projects"
+            name: "projects"
+            widget: "object"
+            fields: 
+              - {label: "Header", name: "header", widget: "string"}
+              - {label: "Text", name: "text", widget: "string"}
+              - label: "Projects"
+                name: "projects"
+                widget: "list"
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Description, name: description, widget: string}
+                  - {label: CTA Text, name: cta_text, widget: string}
+                  - {label: CTA Link, name: cta_link, widget: string}
       - file: "src/pages/people.md"
         label: "People"
         name: "people"
@@ -82,6 +116,8 @@ collections:
       - { label: "Template Key", name: "templateKey", widget: "hidden", default: "project" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Excerpt", name: "excerpt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "focus"

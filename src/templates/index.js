@@ -35,11 +35,9 @@ function IndexPage({data}) {
         cta_url={content.focus.cta_url}
         areas={areas}
       />
-      <LineBreak />
       <Quote
         quote={content.quote.text}
       />
-      <LineBreak />
       <Guiding
         heading={content.principles.text}
         principles={principles}

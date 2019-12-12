@@ -1,6 +1,18 @@
 ---
 templateKey: index
 hero:
+  announcements:
+    - cta_link: /people
+      cta_text: See open roles
+      description: >-
+        Join the CT Digital Service and help us improve the daily lives of our
+        constituents
+      title: We're Hiring!
+    - cta_link: /work/business-one-stop
+      cta_text: Learn More
+      description: We recently launched a Business One Stop
+      title: Check out the Business One Stop
+  announcements_title: Announcements
   bg: /img/fall.jpg
   button_text: Subscribe
   cta_text: Learn more about our work

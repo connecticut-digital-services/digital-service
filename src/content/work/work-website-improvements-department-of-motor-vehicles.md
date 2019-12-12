@@ -1,5 +1,5 @@
 ---
-templateKey: project
+templateKey: work
 title: Website Improvements - Department of Motor Vehicles
 date: 2019-12-10T14:22:15.698Z
 image: /img/screen-shot-2019-12-12-at-9.21.27-am.png

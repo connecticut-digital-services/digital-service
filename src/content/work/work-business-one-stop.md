@@ -1,5 +1,5 @@
 ---
-templateKey: project
+templateKey: work
 title: Business One Stop
 date: 2019-12-12T14:11:14.032Z
 image: >-

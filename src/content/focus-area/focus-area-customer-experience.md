@@ -4,6 +4,11 @@ title: Customer Experience
 icon: comments-alt
 description: Deliver services that are designed around the needs of our constituents
 order: 0
+map:
+  - title: This is a test
+    description: Here is some test content
+  - title: Here is another test
+    description: Here is some test content
 ---
 Our end goal is exceptional customer service. Government has been notorious for providing frustrating customer experiences. We want to start changing that. By transforming constituents’ interactions with us into accessible, useful, and even delightful digital experiences, we can restore their confidence in government and their willingness to engage.
 

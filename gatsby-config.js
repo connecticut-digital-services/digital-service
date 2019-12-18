@@ -8,6 +8,7 @@ module.exports = {
     author: `@taylorbryant`
   },
   plugins: [
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -77,7 +78,6 @@ module.exports = {
     },
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-offline`,
-    `gatsby-plugin-sharp`,
     `gatsby-transformer-remark`,
     `gatsby-remark-relative-images`,
     `gatsby-transformer-sharp`, 

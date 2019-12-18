@@ -3,8 +3,8 @@ import { graphql, StaticQuery } from 'gatsby'
 import styled from 'styled-components'
 
 import BackgroundImage from 'gatsby-background-image'
+import Img from 'gatsby-image'
 import chevron from '../../static/img/chevron.svg'
-import LineBreak from './_lineBreak'
 
 const Hero = ({ className, text, cta, cta_url, bg, announcements_title, announcements }) => {
   return (
@@ -23,10 +23,18 @@ const Hero = ({ className, text, cta, cta_url, bg, announcements_title, announce
               <div className={`ct-flex ct-flex-wrap ct--mx-2`}>
                 {announcements.map((announcement, index) => {
                   return (
-                    <a key={index} href={announcement.cta_link} className={`ct-flex ct-flex-col ct-mx-2 ct-w-1/3 ct-p-4 ct-border-2 ct-border-primary-normal ct-block hover:ct-border-primary-dark hover:ct-bg-primary-dark`}>
-                      <div className={`ct-text-white ct-font-bold ct-mb-2`}>{announcement.title}</div>
-                      <div className={`ct-text-white ct-mb-2 ct-flex-grow`}>{announcement.description}</div>
-                      <div className={`ct-text-white ct-font-bold`}><i class={`fas fa-arrow-right ct-mr-2`}></i> {announcement.cta_text}</div>
+                    <a key={index} href={announcement.cta_link} className={`ct-flex md:ct-items-center ct-mx-2 md:ct-w-3/4 ct-p-4 ct-border-2 ct-border-primary-normal ct-block hover:ct-border-primary-dark hover:ct-bg-primary-dark`}>
+                      <div class="ct-w-1/4 ct-mr-6">
+                        <Img
+                          fluid={announcement.image.childImageSharp.fluid}
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div className={`ct-text-white ct-font-bold ct-mb-2`}>{announcement.title}</div>
+                        <div className={`ct-text-white ct-mb-2 ct-flex-grow`}>{announcement.description}</div>
+                        <div className={`ct-text-white ct-font-bold`}><i class={`fas fa-arrow-right ct-mr-2`}></i> {announcement.cta_text}</div>
+                      </div>                    
                     </a>
                   )
                 })}

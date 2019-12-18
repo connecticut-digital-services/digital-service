@@ -10,7 +10,7 @@ hero:
   announcements_title: How we're changing Connecticut
   bg: /img/fall.jpg
   button_text: Subscribe
-  cta_text: Learn more about our work
+  cta_text: Join the Connecticut Digital Service team
   text: Help us build a visionary Connecticut that citizens will love
 focus:
   cta_text: Learn more about the current projects and initiatives we are working on.
@@ -22,6 +22,7 @@ focus:
     technology to deliver high quality experiences for our users. To do this,
     our immediate areas of focus include:
 quote:
+  title: 'The Connecticut Digital Service is helping our government work more efficiently with greater user satisfaction.'
   text: ' I will take the lead by investing in the first all-digital government, and reverse engineer every transaction from the taxpayer’s shoes. The entry point to Connecticut will be through its digital front door, a one-stop-shop for everything current and prospective citizens need from their government. We will be online, not in line. It won’t be done overnight, but let’s start today.'
 principles:
   text: Our guiding principles

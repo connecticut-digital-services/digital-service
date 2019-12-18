@@ -44,6 +44,7 @@ collections:
             name: "quote"
             widget: "object"
             fields: 
+              - {label: "Title", name: "title", widget: "string"}
               - {label: "Text", name: "text", widget: "string"}
           - label: "Principles"
             name: "principles"

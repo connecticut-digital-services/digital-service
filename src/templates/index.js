@@ -22,11 +22,15 @@ function IndexPage({data}) {
       <Hero
         text={content.hero.text} 
         cta={content.hero.cta_text}
-        cta_url="/work"
+        cta_url="/people"
         button_text={content.hero.button_text}
         bg={content.hero.bg}
         announcements_title={content.hero.announcements_title}
         announcements={content.hero.announcements}
+      />
+      <Quote
+        quote={content.quote.text}
+        title={content.quote.title}
       />
       <Areas
         title={content.focus.header} 
@@ -35,9 +39,7 @@ function IndexPage({data}) {
         cta_url={content.focus.cta_url}
         areas={areas}
       />
-      <Quote
-        quote={content.quote.text}
-      />
+      <LineBreak />
       <Guiding
         heading={content.principles.text}
         principles={principles}
@@ -68,6 +70,13 @@ query IndexTemplate {
           description
           cta_text
           cta_link
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
       focus {
@@ -78,6 +87,7 @@ query IndexTemplate {
       }
       quote {
         text
+        title
       }
       principles {
         text

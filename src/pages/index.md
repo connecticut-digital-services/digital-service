@@ -4,15 +4,14 @@ hero:
   announcements:
     - cta_link: /people
       cta_text: See more change
-      description: >-
-        We helped the DMV get ready for changes required by Real ID.
+      description: We helped the DMV get ready for changes required by Real ID.
+      image: /img/license.png
       title: The DMV gets Real
   announcements_title: How we're changing Connecticut
   bg: /img/fall.jpg
   button_text: Subscribe
   cta_text: Learn more about our work
-  text: >-
-    Help us build a visionary Connecticut that citizens will love
+  text: Help us build a visionary Connecticut that citizens will love
 focus:
   cta_text: Learn more about the current projects and initiatives we are working on.
   cta_url: /work

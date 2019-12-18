@@ -135,7 +135,7 @@ collections:
       - { label: "Order", name: "order", widget: "number" }
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Road Map Items"
-        name: "map"
+        name: "items"
         widget: "list"
         fields:
           - {label: Title, name: title, widget: string}

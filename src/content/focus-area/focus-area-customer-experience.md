@@ -4,7 +4,7 @@ title: Customer Experience
 icon: comments-alt
 description: Deliver services that are designed around the needs of our constituents
 order: 0
-map:
+items:
   - title: This is a test
     description: Here is some test content
   - title: Here is another test

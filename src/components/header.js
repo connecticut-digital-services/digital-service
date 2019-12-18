@@ -24,7 +24,7 @@ function Header() {
           <nav className="ct-flex ct-items-center ct-justify-end ct-w-1/2">
             <ul className="ct-flex">
               <li><NavLink to={`/`}>Home</NavLink></li>
-              <li><NavLink to={`/people`}>People</NavLink></li>
+              <li><NavLink to={`/people`}>Our Team</NavLink></li>
               <li><NavLink to={`/work`}>Our Work</NavLink></li>
             </ul>
           </nav>

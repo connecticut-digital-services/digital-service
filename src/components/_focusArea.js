@@ -7,7 +7,9 @@ function FocusArea(props) {
           <i class={`fad fa-${props.icon}`}></i>
         </div>
         <div>
-          <div className="ct-text-primary-dark ct-text-2xl">{props.title}</div>
+          <div className="ct-text-primary-dark ct-text-2xl">
+            <a href={props.slug}>{props.title}</a>
+          </div>
           <div className="ct-text-l">{props.subtitle}</div>
         </div>
       </div>

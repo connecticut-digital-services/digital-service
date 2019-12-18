@@ -120,6 +120,9 @@ query IndexTemplate {
     }) {
     edges {
       node {
+        fields {
+          slug
+        }
         frontmatter {
           title
           icon

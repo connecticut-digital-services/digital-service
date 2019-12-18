@@ -18,7 +18,7 @@ function Areas({
       <div className={`ct-flex ct-flex-wrap ct--mx-4`}>
         {areas.map((area, index) => {
           const node = area.node
-          return <FocusArea icon={node.frontmatter.icon} title={node.frontmatter.title} subtitle={node.frontmatter.description} />
+          return <FocusArea slug={area.node.fields.slug} icon={node.frontmatter.icon} title={node.frontmatter.title} subtitle={node.frontmatter.description} />
         })}
       </div>
       <a href={cta_url} className={`ct-underline ct-text-primary-normal hover:ct-text-primary-dark`}>{cta}</a>

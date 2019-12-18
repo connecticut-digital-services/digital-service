@@ -3,22 +3,16 @@ templateKey: index
 hero:
   announcements:
     - cta_link: /people
-      cta_text: See open roles
+      cta_text: See more change
       description: >-
-        Join the CT Digital Service and help us improve the daily lives of our
-        constituents test
-      title: We're Hiring!
-    - cta_link: /work/business-one-stop
-      cta_text: Learn More
-      description: We recently launched a Business One Stop
-      title: Check out the Business One Stop
-  announcements_title: Announcements
+        We helped the DMV get ready for changes required by Real ID.
+      title: The DMV gets Real
+  announcements_title: How we're changing Connecticut
   bg: /img/fall.jpg
   button_text: Subscribe
   cta_text: Learn more about our work
   text: >-
-    We better serve the citizens of Connecticut through smart, user-centered
-    digital services.
+    Help us build a visionary Connecticut that citizens will love
 focus:
   cta_text: Learn more about the current projects and initiatives we are working on.
   cta_url: /work

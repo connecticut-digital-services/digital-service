@@ -16,7 +16,7 @@ function WorkPage({data, html}) {
         title="Connecticut Digital Service"
       />
       <Block>
-        <a href="/work">Our Work</a>
+        <a href="/work"  className={`ct-text-primary-normal ct-underline`}>Our Work</a>
         <h1 className={`ct-text-4xl ct-font-bold`}>{ content.frontmatter.title }</h1>
         <div className={`ct-mb-10`}>Posted { content.frontmatter.date }</div>
         <div dangerouslySetInnerHTML={{__html: content.html}}></div>

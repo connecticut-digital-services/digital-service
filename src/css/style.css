@@ -22,3 +22,19 @@ html, body {
   border-color: theme('colors.primary.dark');
   font-weight: 700;
 }
+
+.ct-prose h2 {
+  @apply .ct-text-2xl;
+  @apply .ct-font-bold;
+  @apply .ct-mb-3;
+}
+
+.ct-prose p, .ct-prose ul {
+  @apply .ct-mb-6;
+}
+
+.ct-prose ul {
+  @apply .ct-list-disc;
+  @apply .ct-list-outside;
+  @apply .ct-ml-10;
+}

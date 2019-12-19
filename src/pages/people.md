@@ -7,9 +7,11 @@ team:
 
 
     We are curious, supportive and driven in our efforts to solve complex
-    problems that yield smart user-centered digital services.  We are looking to
-    grow our talented and scrappy  team, so if you are interested in joining,
-    please review the open roles below.
+    problems that yield smart user-centered digital services.  
+
+
+    We are looking to grow our talented and scrappy  team, so if you are
+    interested in joining, please review the open roles below.
   intro: >-
     We are a lean, high-performing team dedicated to improving the digital
     experience for the citizens of Connecticut. We bring to bear a diverse set

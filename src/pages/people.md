@@ -3,7 +3,12 @@ templateKey: people
 team:
   intro: >-
     We are a lean and high-performing team dedicated to improving the digital
-    experience for citizens of Connecticut.
+    experience for citizens of Connecticut. We bring to bear a diverse set of
+    skills and experience to achieve this mission.    Our team is at the front
+    end of a digital transformation journey that seeks to make it simple and
+    easy to interact with the government. We are curious, supportive and driven
+    in our efforts to solve complex problems that yield smart, user-centered
+    digital services.
   title: The Team
 openings:
   intro: >-

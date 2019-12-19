@@ -14,7 +14,7 @@ resources:
       cta_text: Coming Soon
       description: >-
         A reference for better ways to buy and manage technology and digital
-        services. 
+        services
       title: Agile Procurement
   text: >-
     Below are resources for state agencies that draw from best practices that we

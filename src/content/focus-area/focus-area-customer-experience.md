@@ -3,8 +3,8 @@ templateKey: area
 title: Customer Experience
 icon: comments-alt
 description: >-
-  Citizens deserve a compassionate simple-to-use government that treats them
-  like a person. We’re delivering on this promise.
+  Citizens deserve a compassionate simple-to-use government that addresses their
+  needs. We’re delivering on this promise.
 order: 0
 items:
   - title: This is a test

@@ -3,11 +3,9 @@ templateKey: people
 team:
   body: >-
     Our team is at the front end of a digital transformation journey that seeks
-    to make it simple and easy to interact with the government. 
-
-
-    We are curious, supportive and driven in our efforts to solve complex
-    problems that yield smart, user-centered digital services.  
+    to make it simple and easy to interact with the government. We are curious,
+    supportive and driven in our efforts to solve complex problems that yield
+    smart, user-centered digital services.  
 
 
     We are looking to grow our talented and scrappy team. If you are interested

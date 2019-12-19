@@ -1,10 +1,10 @@
 ---
+templateKey: area
 title: Agile Procurement
 icon: conveyor-belt-alt
 description: >-
-  Adopt procurement practices that maximize chances of project success while
-  minimizing cost and risk
+  Success is fueled by quick-to-market services with huge impact (and less
+  cost). We’re breaking all the rules.
 order: 2
-templateKey: area
 ---
 

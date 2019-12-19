@@ -7,10 +7,10 @@ import recommended from 'remark-preset-lint-recommended';
 import remarkHtml from 'remark-html';
 
 function Team({ team }) {
-  let content = content = remark()
-                            .use(recommended)
-                            .use(remarkHtml)
-                            .processSync(team.body).toString();
+  let content = remark()
+                .use(recommended)
+                .use(remarkHtml)
+                .processSync(team.body).toString();
   return (
     <Block title={false}>
       <h1 className={`ct-text-3xl md:ct-text-4xl ct-font-bold ct-text-primary-dark`}>{team.title}</h1>

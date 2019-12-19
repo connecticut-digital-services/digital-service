@@ -14,7 +14,7 @@ function Team({ team }) {
   return (
     <Block title={false}>
       <h1 className={`ct-text-3xl md:ct-text-4xl ct-font-bold ct-text-primary-dark`}>{team.title}</h1>
-      <div className={`ct-text-xl md:ct-text-2xl ct-text-primary-dark ct-w-3/4 ct-mb-10`}>{team.intro}</div>
+      <div className={`ct-text-xl md:ct-text-2xl ct-text-primary-dark ct-mb-10`}>{team.intro}</div>
       <div className={`ct-text-xl ct-prose`}>
         <div dangerouslySetInnerHTML={{__html: content}}></div>
       </div>

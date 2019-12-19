@@ -9,7 +9,7 @@ excerpt: >-
 ---
 ## Challenge
 
-Visitors to the Department of Motor Vehicles’s (DMV) website were becoming increasingly frustrated with their online experience. Users had trouble finding the information they needed. In addition, there were certain changes the DMV needed to make in its digital services as part of the REAL ID Act, federal legislation establishing minimum security standards for state-issued driver’s licenses and identification cards. They reached out for help and we answered the call. 
+Visitors to the Department of Motor Vehicles’s (DMV) website were becoming increasingly frustrated with their online experience. Users had trouble finding the information they needed. In addition, there were certain changes the DMV needed to make in its digital services as part of the REAL ID Act, federal legislation establishing minimum security standards for state-issued driver’s licenses and identification cards. The DMV reached out for help and we answered the call. 
 
 ## Solution
 

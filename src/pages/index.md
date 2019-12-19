@@ -20,7 +20,7 @@ focus:
   header: User-Friendly Government. Less Hoops
   text: >-
     CT Digital Service is leading a digital transformation in the state. The
-    work is currently focused in four critical areas:
+    work is currently focused in four areas:
 quote:
   text: ' I will take the lead by investing in the first all-digital government, and reverse engineer every transaction from the taxpayer’s shoes. The entry point to Connecticut will be through its digital front door, a one-stop-shop for everything current and prospective citizens need from their government. We will be online, not in line. It won’t be done overnight, but let’s start today.'
   title: >-

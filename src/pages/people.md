@@ -1,6 +1,7 @@
 ---
 templateKey: people
 team:
+  title: The Team
   body: |-
     Here is some team content.
 
@@ -8,7 +9,6 @@ team:
   intro: >-
     Our lean but scrappy team is made up of a diverse set of skills and
     experience.
-  title: The Team
 openings:
   intro: >-
     Interested in harnessing your tech superpowers to transform the digital

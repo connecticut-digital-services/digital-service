@@ -30,11 +30,7 @@ query PeopleTemplate {
     	team {
         title
         intro
-        members {
-          name
-          position
-          bio
-        }
+        body
       }
       openings {
         title

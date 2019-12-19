@@ -1,28 +1,13 @@
 ---
 templateKey: people
 team:
+  body: |-
+    Here is some team content.
+
+    It has multiple lines
   intro: >-
     Our lean but scrappy team is made up of a diverse set of skills and
     experience.
-  members:
-    - avatar: /img/5g27zp266necxl7kwukkexqnb4.jpg
-      bio: >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac odio
-        sagittis, fringilla velit at, maximus libero. Donec in consectetur odio.
-        Suspendisse rhoncus felis nec nibh imperdiet convallis. Sed in augue
-        mollis, lobortis justo iaculis, congue sem. Vestibulum imperdiet ac
-        justo sed porttitor.
-      name: Josh Geballe
-      position: 'Commissioner, DAS'
-    - avatar: /img/4c01fc39-9e81-4f1a-b4ae-c3b123972678.jpg
-      bio: >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac odio
-        sagittis, fringilla velit at, maximus libero. Donec in consectetur odio.
-        Suspendisse rhoncus felis nec nibh imperdiet convallis. Sed in augue
-        mollis, lobortis justo iaculis, congue sem. Vestibulum imperdiet ac
-        justo sed porttitor.
-      name: Easha Canada
-      position: Chief Digital Officer
   title: The Team
 openings:
   intro: >-

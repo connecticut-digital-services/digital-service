@@ -38,3 +38,10 @@ html, body {
   @apply .ct-list-outside;
   @apply .ct-ml-10;
 }
+
+.ct-prose img {
+  margin: 0 auto;
+  @apply .ct-my-20;
+  max-width: 80%;
+  width: 100%;
+}

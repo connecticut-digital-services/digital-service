@@ -2,7 +2,9 @@
 templateKey: area
 title: Customer Experience
 icon: comments-alt
-description: Deliver services that are designed around the needs of our constituents
+description: >-
+  Citizens deserve a compassionate simple-to-use government that treats them
+  like a person. We’re delivering on this promise.
 order: 0
 items:
   - title: This is a test

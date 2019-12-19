@@ -11,8 +11,10 @@ resources:
   header: Playbooks & Guidelines
   projects:
     - cta_link: /
-      cta_text: Download
-      description: Some descriptive text about the playbook will go here
+      cta_text: Coming Soon
+      description: >-
+        A reference for better ways to buy and manage technology and digital
+        services. 
       title: Agile Procurement
   text: >-
     Below are resources for state agencies that draw from best practices that we

@@ -15,7 +15,7 @@ hero:
     We serve Connecticut through smart, easy-to-use digital services that our
     citizens will love
 focus:
-  cta_text: Learn more about the current projects and initiatives we are working on.
+  cta_text: Learn more about our current projects and initiatives
   cta_url: /work
   header: User-Friendly Government. Less Hoops
   text: >-

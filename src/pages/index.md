@@ -13,7 +13,7 @@ hero:
   cta_text: Join the Connecticut Digital Service team
   text: >-
     We serve Connecticut through smart, easy-to-use digital services that our
-    citizens will love
+    citizens will love.
 focus:
   cta_text: Learn more about our current projects and initiatives
   cta_url: /work

@@ -25,8 +25,45 @@ Here is a list of critical questions to ask ourselves as agencies working toward
 * Are we helping to cultivate clear two-way communication between government and constituents?
 * Are we providing a consistent, high quality experience? How do we know?
 
+## Key Actions & Timelines
+
+Below are specific actions and timelines we plan to  complete to make meaningful progress on improving user experience across the state:
 
 
-## Progress & Key Milestones
 
-Below are specific actions and timelines the CT Digital Service will complete to make meaningful progress on improving user experience across the state:
+## **Key Actions**
+
+* Develop and deliver User Experience Standards
+* Improve CT.gov
+
+
+
+## **0-6 months**
+
+\-Develop standards for content and style
+
+\-Conduct multi-agency digital workshop for CT.gov 
+
+\-Improve CT.gov user flow, accessibility, and analytics
+
+## 6-12 months
+
+\-Build technology solutions across agencies 
+
+\-Establish standards for user experience design and research, and
+
+incremental delivery
+
+\-Improve CT.gov analytics
+
+## 12-18+ months
+
+\-Broaden use of digital tools and metrics
+
+\-Build new digital services based on user experience research
+
+## Ongoing
+
+\-Continuous improvement to previous work cycles. 
+
+[Learn more about our efforts and specific examples of our work.](https://mountain-laurel.netlify.com/work)

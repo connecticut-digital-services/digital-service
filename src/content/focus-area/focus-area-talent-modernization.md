@@ -25,7 +25,7 @@ Here are some straightforward practices we’re embracing to grow capacity and s
 
 ## Key Actions &  Timelines
 
-Below are specific actions and timelines we will complete to attract, develop, support, and retain top digital talent and capacity: 
+Below are specific actions and timelines we will complete to attract, develop, support, and retain top digital talent and build capacity: 
 
 ## Key Actions
 
@@ -51,8 +51,6 @@ Below are specific actions and timelines we will complete to attract, develop, s
 ## 12-18+ months
 
 \-Recommend new roles and skills needed to mature digital services
-
-
 
 Interested in joining our team?  [Check out our open roles. ](https://mountain-laurel.netlify.com/people/)
 

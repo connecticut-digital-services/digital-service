@@ -23,6 +23,16 @@ html, body {
   font-weight: 700;
 }
 
+.ct-prose a {
+  color: theme('colors.primary.normal');
+  @apply .ct-underline;
+}
+
+.ct-prose a:hover {
+  color: theme('colors.primary.dark');
+  @apply .ct-underline;
+}
+
 .ct-prose h2 {
   @apply .ct-text-2xl;
   @apply .ct-font-bold;
@@ -33,10 +43,20 @@ html, body {
   @apply .ct-mb-6;
 }
 
-.ct-prose ul {
+.ct-prose ul,
+.markdown ul {
   @apply .ct-list-disc;
   @apply .ct-list-outside;
   @apply .ct-ml-10;
+}
+
+.markdown ul {
+  @apply .ct-mt-4;
+  @apply .ct-ml-6;
+}
+
+.markdown li:not(:first-child) {
+  @apply .ct-mt-2;
 }
 
 .ct-prose img {

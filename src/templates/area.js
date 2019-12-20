@@ -131,6 +131,11 @@ function AreaPage({data, html}) {
             </Timeline>
           </div>
         )}
+        {content.frontmatter.cta && (
+          <div className={`ct-mt-10`}>
+            <a href={ content.frontmatter.cta_link }  className={`ct-text-primary-normal ct-underline hover:ct-text-primary-dark`}>{ content.frontmatter.cta }</a>
+          </div>
+        )}
       </Block>
     </Layout>
   );
@@ -143,6 +148,8 @@ query($slug: String!) {
     frontmatter {
       title
       icon
+      cta
+      cta_link
       items {
         title
         description

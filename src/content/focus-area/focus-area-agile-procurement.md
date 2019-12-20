@@ -6,6 +6,8 @@ description: >-
   We're adopting the latest procurement practices that increase the odds of
   project success while minimizing cost and risk.
 order: 2
+cta: Learn more about our efforts and specific examples of our work.
+cta_link: /work/
 items:
   - title: 0-6 months
     description: >-
@@ -38,7 +40,7 @@ Here’s what shifting to more modern, agile procurement methods for technology 
 
 If you are interested in learning more, we are working on an Agile Procurement Playbook that will provide a deep dive into the practices we’re adopting. _Stay tuned._ 
 
-[Learn more about our efforts and specific examples of our work.](https://mountain-laurel.netlify.com/work/)
+Learn more about our efforts and specific examples of our work.
 
 ## Key Actions &  Timelines
 

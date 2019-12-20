@@ -23,8 +23,8 @@ const Hero = ({ className, text, cta, cta_url, bg, announcements_title, announce
               <div className={`ct-flex ct-flex-wrap ct--mx-2`}>
                 {announcements.map((announcement, index) => {
                   return (
-                    <a key={index} href={announcement.cta_link} className={`ct-flex md:ct-items-center ct-mx-2 md:ct-w-3/4 ct-p-4 ct-border-2 ct-border-primary-normal ct-block hover:ct-border-primary-dark hover:ct-bg-primary-dark`}>
-                      <div class="ct-w-1/4 ct-mr-6">
+                    <a key={index} href={announcement.cta_link} className={`ct-flex ct-flex-col md:ct-flex-row md:ct-items-center ct-mx-2 md:ct-w-3/4 ct-p-4 ct-border-2 ct-border-primary-normal ct-block hover:ct-border-primary-dark hover:ct-bg-primary-dark`}>
+                      <div class="ct-w-1/2 md:ct-w-1/4 ct-mr-6 ct-mb-6 md:ct-mb-0">
                         <Img
                           fluid={announcement.image.childImageSharp.fluid}
                           alt=""

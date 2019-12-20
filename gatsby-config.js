@@ -31,7 +31,6 @@ module.exports = {
         icon: `static/img/fall.jpg`
       }
     },
-    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-purgecss`,
       options: {
@@ -74,6 +73,7 @@ module.exports = {
         name: 'principles',
       },
     },
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,

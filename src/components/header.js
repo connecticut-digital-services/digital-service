@@ -17,11 +17,11 @@ function Header() {
 
   return (
     <header className="ct-bg-primary-normal ct-py-4">
-      <div className="ct-flex ct-items-center ct-px-6">
-          <div class="ct-w-1/2">
+      <div className="ct-flex ct-flex-col md:ct-flex-row md:ct-items-center ct-px-6">
+          <div class="md:ct-w-1/2 ct-mb-4 md:ct-mb-0">
             <img src={logo} alt="Connecticut Digital Service" className={`ct-h-12 sm:ct-h-16`} />
           </div>
-          <nav className="ct-flex ct-items-center ct-justify-end ct-w-1/2">
+          <nav className="ct-flex ct-items-center md:ct-justify-end md:ct-w-1/2">
             <ul className="ct-flex">
               <li><NavLink to={`/`}>Home</NavLink></li>
               <li><NavLink to={`/people`}>Our Team</NavLink></li>

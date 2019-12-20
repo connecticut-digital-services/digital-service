@@ -5,7 +5,7 @@ import govImage from '../../static/img/govlamont.jpg';
 function Quote({ quote, title }) {
   return (
     <div>
-      <div className={`ct-max-w-5xl ct-container ct-mx-auto ct-pt-10 md:ct-py-20 ct-py-20`}>
+      <div className={`ct-max-w-5xl ct-container ct-mx-auto ct-py-10 md:ct-py-20 ct-py-20`}>
         <div className={`ct-text-center ct-max-w-3xl ct-mx-auto ct-text-3xl md:ct-text-4xl ct-font-bold ct-text-primary-dark ct-leading-tight`}>{title}</div>
       </div>
       <div className={`ct-max-w-5xl ct-container ct-mx-auto ct-my-10`}>

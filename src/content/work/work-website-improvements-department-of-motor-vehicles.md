@@ -4,8 +4,8 @@ title: The DMV gets Real
 date: 2019-12-10T14:22:15.698Z
 image: /img/screen-shot-2019-12-12-at-9.21.27-am.png
 excerpt: >-
-  We made improvements to the DMV website to provide a better experience for
-  customers.
+  We helped make critical improvements to the DMV website to provide a better
+  experience for customers.
 ---
 ## Challenge
 

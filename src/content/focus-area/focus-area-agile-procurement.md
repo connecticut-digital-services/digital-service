@@ -13,6 +13,14 @@ items:
       procurements
 
       * Pilot streamlined process with new solicitation
+  - title: 6-12 months
+    description: >-
+      * Share, formalize, and train using best practices
+
+      * Announce vendor partnerships on pilot procurement; document and share
+      lessons learned
+  - title: 12-18+ months
+    description: '* Grow vendor partnerships'
 ---
 It shouldn’t be so hard to successfully buy and manage technology projects that help the government better deliver services to the public. But it is. The teams responsible for [94 percent of large IT projects initiated between 2003 and 2012 failed in at least one critical way ](https://www.brookings.edu/blog/techtank/2015/08/25/doomed-challenges-and-solutions-to-government-it-projects/)— they failed to meet deadlines, failed to stay within budget, failed to meet user expectations, or failed to deliver completely. We’re committed to doing things differently. Adopting modern procurement practices allows us to minimize project risks and costs while more effectively meeting our users’ needs.
 

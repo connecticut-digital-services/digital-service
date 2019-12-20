@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
-  branch: prod
+  name: github
+  repo: connecticut-digital-services/connecticut-digital-services.github.io
+  branch: dev
+  site_domain: ctdigitalauth.netlify.com
 
 media_folder: static/img
 public_folder: /img

@@ -2,7 +2,7 @@
 templateKey: index
 hero:
   announcements:
-    - cta_link: /people
+    - cta_link: /work
       cta_text: See more change
       description: We helped the DMV get ready for changes required by Real ID.
       image: /img/license.png

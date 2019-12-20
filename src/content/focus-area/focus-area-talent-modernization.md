@@ -7,6 +7,21 @@ description: >-
   working to revamp the way we attract, retain, and empower our workforce.(Pssst
   - wanna join?)
 order: 1
+cta: 'Interested in joining our team? Check out our open roles. '
+cta_link: /people
+items:
+  - title: 0-6 months
+    description: |-
+      * Establish initial digital roles
+      * Begin recruiting for key Digital Service team roles
+      * Work with HR to develop a handbook for talent modernization
+  - title: 6-12 months
+    description: |-
+      * Formalize training
+      * Assist agencies in filling digital roles
+      * Continue recruiting for Digital Service team roles (if not filled)
+  - title: 12-18+ months
+    description: '* Recommend new roles and skills needed to mature digital services'
 ---
 A key to digital transformation is cultivating a digitally mature workforce. This requires building capacity and equipping our existing workforce with the tools and resources they need to navigate challenges and deliver user-centered services. This also means bringing in new talent  from outside government.  
 
@@ -32,26 +47,4 @@ Below are specific actions and timelines we will complete to attract, develop, s
 * Establish and build out Digital Service team
 * Support the growth of digital skills across the state
 
-## 0-6 months
-
-\-Establish initial digital roles
-
-\-Begin recruiting for key Digital Service team roles
-
-\-Work with HR to develop a handbook for talent modernization
-
-## 6-12 months
-
-\-Formalize training
-
-\-Assist agencies in filling digital roles
-
-\-Continue recruiting for Digital Service team roles (if not filled)
-
-## 12-18+ months
-
-\-Recommend new roles and skills needed to mature digital services
-
-Interested in joining our team?  [Check out our open roles. ](https://mountain-laurel.netlify.com/people/)
-
-[Learn more about our efforts and specific examples of our work](https://mountain-laurel.netlify.com/work/).
+## Timelines

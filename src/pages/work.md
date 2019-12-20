@@ -11,7 +11,7 @@ resources:
   header: Playbooks & Guidelines
   projects:
     - cta_link: 'https://portal.ct.gov/Training/Content-Style-Guide/Content-Style-guide'
-      cta_text: View the playbook
+      cta_text: View the styleguide
       description: Guidelines and standards for producing high quality content on CT.gov
       title: Content Standards Styleguide
     - cta_link: /

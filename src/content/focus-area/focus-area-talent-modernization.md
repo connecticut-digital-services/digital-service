@@ -5,7 +5,7 @@ icon: users
 description: >-
   Transformation doesn't happen without the right skills and talent. We’re
   working to revamp the way we attract, retain, and empower our workforce.(Pssst
-  - Wanna join?)
+  - wanna join?)
 order: 1
 ---
 A key to digital transformation is cultivating a digitally mature workforce. This requires building capacity and equipping our existing workforce with the tools and resources they need to navigate challenges and deliver user-centered services. This also means bringing in new talent  from outside government.  

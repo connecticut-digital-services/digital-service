@@ -29,7 +29,7 @@ Below are specific actions and timelines we will complete to attract, develop, s
 
 ## Key Actions
 
-* Establish and build-out Digital Service team
+* Establish and build out Digital Service team
 * Support the growth of digital skills across the state
 
 ## 0-6 months

@@ -7,7 +7,7 @@ description: >-
   under the hood. We’re turbo-charging the engine.
 order: 3
 ---
-No government agency can escape the IT systems that were put into place years — maybe even generations — ago that no longer meet our needs. We must invest in paying down our “IT debt” to build new technology around the edges of the old and phase out systems that have outlived their usefulness. With the right teams in place, we can empower them to effectively make change in their agencies by offering tools, standards, and platforms to collaborate, iterate, and improve.
+No government agency can escape the Information Technology (IT) systems that were put into place years — maybe even generations — ago that no longer meet our needs. We must invest in paying down our “IT debt” to build new technology around the edges of the old and phase out systems that have outlived their usefulness. With the right teams in place, we can empower them to effectively make change in their agencies by offering tools, standards, and platforms to collaborate, iterate, and improve.
 
 Below are considerations we have in mind as we adapt IT systems and/or products to work more efficiently in service to the public:  
 
@@ -34,7 +34,7 @@ Below are specific actions and timelines we will complete to ensure technology p
 
 \-Build conceptual architecture for delivering digital services
 
-\-Build a digital services blueprint to define user groups and shared digital touchpoints
+\-Build a digital services blueprint to define user groups and shared digital touch points
 
 ## 6-12 months
 
@@ -45,7 +45,5 @@ Below are specific actions and timelines we will complete to ensure technology p
 ## 12-18+ months
 
 \-Establish new service support models, revise SLAs
-
-
 
 [Learn more about our efforts and specific examples of our work.](https://mountain-laurel.netlify.com/work)

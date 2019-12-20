@@ -32,8 +32,6 @@ Below are specific actions and timelines we will complete to make agile procurem
 * Build capabilities around Agile Procurement
 * Improve procurement process
 
-
-
 ## 0-6 months
 
 \-Work with Procurement to draft playbook for agile and streamlined procurements

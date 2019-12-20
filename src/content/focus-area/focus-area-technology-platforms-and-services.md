@@ -6,6 +6,21 @@ description: >-
   To improve the user experience, you might need to radically change what’s
   under the hood. We’re turbo-charging the engine.
 order: 3
+cta: Learn more about our efforts and specific examples of our work.
+cta_link: /work
+items:
+  - title: 0-6 months
+    description: >-
+      * Build conceptual architecture for delivering digital services
+
+      * Build a digital services blueprint to define user groups and shared
+      digital touch points
+  - title: 6-12 months
+    description: |-
+      * Finalize digital architecture
+      * Configure new platforms and tools
+  - title: 12-18+ months
+    description: 'Establish new service support models, revise SLAs'
 ---
 No government agency can escape the Information Technology (IT) systems that were put into place years — maybe even generations — ago that no longer meet our needs. We must invest in paying down our “IT debt” to build new technology around the edges of the old and phase out systems that have outlived their usefulness. With the right teams in place, we can empower them to effectively make change in their agencies by offering tools, standards, and platforms to collaborate, iterate, and improve.
 
@@ -30,20 +45,4 @@ Below are specific actions and timelines we will complete to ensure technology p
 * Develop centralized tools and architecture
 * Optimize digital service delivery
 
-## 0-6 months
-
-\-Build conceptual architecture for delivering digital services
-
-\-Build a digital services blueprint to define user groups and shared digital touch points
-
-## 6-12 months
-
-\-Finalize digital architecture
-
-\-Configure new platforms and tools
-
-## 12-18+ months
-
-\-Establish new service support models, revise SLAs
-
-[Learn more about our efforts and specific examples of our work.](https://mountain-laurel.netlify.com/work)
+## Timelines

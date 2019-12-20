@@ -19,4 +19,4 @@ Through talking with users and reviewing website traffic patterns, we found redu
 
 ## Results
 
-By addressing vital user needs and improving the overall customer experience, the total amount of negative feedback has already decreased by over 20% in the three weeks since the changes were made. The DMV is also successfully fulfilling its federal requirements as mandated by the REAL ID Act.
+By addressing vital user needs and improving the overall customer experience, the total amount of negative feedback has already decreased by over 20 percent in the three weeks since the changes were made. The DMV is also successfully fulfilling its federal requirements as mandated by the REAL ID Act.

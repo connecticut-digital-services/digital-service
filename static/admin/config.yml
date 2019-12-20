@@ -9,6 +9,20 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
+      - file: "src/pages/contact.md"
+        label: "Contact"
+        name: "index"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields: 
+              - {label: "Text", name: "text", widget: "string"}
+              - {label: "Background Image", name: "bg", widget: "image"}
+              - {label: "CTA Text", name: "cta_text", widget: "string"}
+              - {label: "Button Text", name: "button_text", widget: "string"}
+              - {label: "Announcements Title", name: "announcements_title", widget: "string"}
       - file: "src/pages/index.md"
         label: "Home"
         name: "index"

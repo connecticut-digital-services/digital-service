@@ -38,6 +38,8 @@ Here’s what shifting to more modern, agile procurement methods for technology 
 
 If you are interested in learning more, we are working on an Agile Procurement Playbook that will provide a deep dive into the practices we’re adopting. _Stay tuned._ 
 
+[Learn more about our efforts and specific examples of our work.](https://mountain-laurel.netlify.com/work/)
+
 ## Key Actions &  Timelines
 
 Below are specific actions and timelines we will complete to make agile procurement methods to go-to approach across the state: 
@@ -47,4 +49,4 @@ Below are specific actions and timelines we will complete to make agile procurem
 * Build capabilities around Agile Procurement
 * Improve procurement process
 
-[Learn more about our efforts and specific examples of our work.](https://mountain-laurel.netlify.com/work/)
+## Timelines

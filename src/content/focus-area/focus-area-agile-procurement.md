@@ -47,22 +47,4 @@ Below are specific actions and timelines we will complete to make agile procurem
 * Build capabilities around Agile Procurement
 * Improve procurement process
 
-## 0-6 months
-
-\-Work with Procurement to draft playbook for agile and streamlined procurements
-
-\-Pilot streamlined process with new solicitation
-
-## 6-12 months
-
-\-Share, formalize, and train using best practices
-
-\-Announce vendor partnerships on pilot procurement; document
-
-and share lessons learned
-
-## 12-18+ months
-
-\-Grow vendor partnerships
-
 [Learn more about our efforts and specific examples of our work.](https://mountain-laurel.netlify.com/work/)

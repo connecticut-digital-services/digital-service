@@ -7,7 +7,7 @@ hero:
       description: We helped the DMV get ready for changes required by Real ID.
       image: /img/license.png
       title: The DMV gets Real
-  announcements_title: How we're transforming Connecticut
+  announcements_title: 'How we''re transforming Connecticut '
   bg: /img/fall.jpg
   button_text: Subscribe
   cta_text: Join the Connecticut Digital Service team

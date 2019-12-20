@@ -4,7 +4,7 @@ title: Making it easy to do business in Connecticut
 date: 2019-12-12T14:11:14.032Z
 image: >-
   /img/ld5wcyvena2hpbeqil_lgqdupy4w0womhrmpfkmchey2jihk4oewjye61rdinm9w9h-o8ef0dvaydikxjfaouiemq6zfsygfxrsf-vxqoonighdjxyznkbedxwpgka9qq9jpxen1mbweb_vfda.jpeg
-excerpt: We're making it easier to start and operate a business in Connecticut
+excerpt: We're working to make it easier to start and operate a business in Connecticut
 ---
 ## Challenge
 

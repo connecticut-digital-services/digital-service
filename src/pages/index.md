@@ -17,7 +17,7 @@ hero:
 focus:
   cta_text: Learn more about our current projects and initiatives
   cta_url: /work
-  header: 'User-friendly government. Fewer Hoops. '
+  header: 'User-friendly government. Fewer hoops. '
   text: >-
     CT Digital Service is leading a digital transformation in the state. The
     work is currently focused in four areas:

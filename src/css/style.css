@@ -1,3 +1,67 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html, body {
+  font-family: theme('fontFamily.sans');
+}
+
+.ct-nav-link span {
+  padding-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s;
+}
+
+.ct-nav-link:hover span {
+  border-color: theme('colors.white');
+}
+
+.ct-nav-link.ct--is-active span {
+  border-color: theme('colors.primary.dark');
+  font-weight: 700;
+}
+
+.ct-prose a {
+  color: theme('colors.primary.normal');
+  @apply .ct-underline;
+}
+
+.ct-prose a:hover {
+  color: theme('colors.primary.dark');
+  @apply .ct-underline;
+}
+
+.ct-prose h2 {
+  @apply .ct-text-2xl;
+  @apply .ct-font-bold;
+  @apply .ct-mb-3;
+}
+
+.ct-prose p, .ct-prose ul {
+  @apply .ct-mb-6;
+}
+
+.ct-prose ul,
+.markdown ul {
+  @apply .ct-list-disc;
+  @apply .ct-list-outside;
+  @apply .ct-ml-10;
+}
+
+.markdown ul {
+  @apply .ct-mt-4;
+  @apply .ct-ml-6;
+}
+
+.markdown li:not(:first-child) {
+  @apply .ct-mt-2;
+}
+
+.ct-prose img {
+  margin: 0 auto;
+  @apply .ct-my-20;
+  max-width: 80%;
+  width: 100%;
+}

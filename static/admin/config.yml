@@ -1,0 +1,149 @@
+backend:
+  name: git-gateway
+  branch: prod
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/index.md"
+        label: "Home"
+        name: "index"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields: 
+              - {label: "Text", name: "text", widget: "string"}
+              - {label: "Background Image", name: "bg", widget: "image"}
+              - {label: "CTA Text", name: "cta_text", widget: "string"}
+              - {label: "Button Text", name: "button_text", widget: "string"}
+              - {label: "Announcements Title", name: "announcements_title", widget: "string"}
+              - label: "Announcements"
+                name: "announcements"
+                widget: "list"
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Description, name: description, widget: string}
+                  - {label: Image, name: image, widget: image}
+                  - {label: CTA Text, name: cta_text, widget: string}
+                  - {label: CTA Link, name: cta_link, widget: string}
+          - label: "Focus Areas"
+            name: "focus"
+            widget: "object"
+            fields: 
+              - {label: "Header", name: "header", widget: "string"}
+              - {label: "Text", name: "text", widget: "string"}
+              - {label: "CTA Text", name: "cta_text", widget: "string"}
+              - {label: "CTA URL", name: "cta_url", widget: "string"}
+          - label: "Quote"
+            name: "quote"
+            widget: "object"
+            fields: 
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Text", name: "text", widget: "string"}
+          - label: "Principles"
+            name: "principles"
+            widget: "object"
+            fields: 
+              - {label: "Title", name: "text", widget: "string"}
+      - file: "src/pages/work.md"
+        label: "Work"
+        name: "work"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project"}
+          - label: "Recent Projects"
+            name: "projects"
+            widget: "object"
+            fields: 
+              - {label: "Header", name: "header", widget: "string"}
+              - {label: "Text", name: "text", widget: "string"}
+          - label: "Resources Projects"
+            name: "resources"
+            widget: "object"
+            fields: 
+              - {label: "Header", name: "header", widget: "string"}
+              - {label: "Text", name: "text", widget: "string"}
+              - label: "Projects"
+                name: "projects"
+                widget: "list"
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Description, name: description, widget: string}
+                  - {label: CTA Text, name: cta_text, widget: string}
+                  - {label: CTA Link, name: cta_link, widget: string}
+      - file: "src/pages/people.md"
+        label: "People"
+        name: "people"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "people"}
+          - label: "Team"
+            name: "team"
+            widget: "object"
+            fields: 
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Intro", name: "intro", widget: "string"}
+              - {label: "Body", name: "body", widget: "markdown"}
+          - label: "Openings"
+            name: "openings"
+            widget: "object"
+            fields: 
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Intro", name: "intro", widget: "string"}
+              - label: "Roles"
+                name: "roles"
+                widget: "list"
+                fields:
+                  - {label: Position, name: position, widget: string}
+                  - {label: Link, name: link, widget: string}
+                  - {label: Location, name: location, widget: string}
+
+  - name: "work"
+    label: "Work"
+    folder: "src/content/work"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "work" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Excerpt", name: "excerpt", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "focus"
+    label: "Focus Area"
+    folder: "src/content/focus-area"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "area" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Icon", name: "icon", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Order", name: "order", widget: "number" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "CTA", name: "cta", widget: "string" }
+      - { label: "CTA Link", name: "cta_link", widget: "string" }
+      - label: "Road Map Items"
+        name: "items"
+        widget: "list"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: markdown}
+
+  - name: "principle"
+    label: "Principle"
+    folder: "src/content/principle"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "principle" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Icon", name: "icon", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Order", name: "order", widget: "number" }

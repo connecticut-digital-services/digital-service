@@ -6,6 +6,8 @@ description: >-
   Citizens deserve a compassionate, simple-to-use government that addresses
   their needs. We’re delivering on this promise.
 order: 0
+cta: Learn more about our efforts and specific examples of our work.
+cta_link: /work
 items:
   - title: 0-6 months
     description: |-

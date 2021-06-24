@@ -1,7 +1,7 @@
 const path = require(`path`)
 
 module.exports = {
-  pathPrefix: `/digital-service`,
+  pathPrefix: `/digital-service`, // So I'm not an expert in gatsby, but I think this might be causing an issue where you have two 'homepages' (unless of course that is by design and I'm missing the point). Right now the 'home' link serves you to one version of the homepage at https://connecticut-digital-services.github.io/digital-service and the initial load of the site brings you to a root directory homepage at https://connecticut-digital-services.github.io/ - Maybe this is more in the deployment config for gatsby in gh-pages as far as setting the true homepage. They are both informational, but a little confusing that there's two. -@knaackbuilt (any remote jobs for a dev/product manager/architect on your digital service team?)
   siteMetadata: {
     title: `Connecticut Digital Service`,
     description: `We better serve the citizens of Connecticut through smart, user-centered digital services.`,
